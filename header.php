@@ -51,7 +51,7 @@ wp_head(); ?>
       </div><!-- header-content -->
 <center>	
 <?php  
-
+// installation d'un slider sr la page d'acceuil
  if(is_home()) { if (function_exists("easing_slider")){ easing_slider(984); } } ?>
 
 
